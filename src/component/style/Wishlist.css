@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.wishlist-section {
+  margin-top: 8.5rem;
+  margin-inline: 4.5em;
+  margin-bottom: 3em;
+}
+.wishlist-heading {
+  color: #242424;
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 0.95rem;
+}
+.wishlist-details > * th {
+  color: #777777;
+  font-size: 0.9rem;
+}
+.wishlist__name {
+  color: #333333 !important;
+  padding-top: 2em !important;
+}
+.wishlist__name a {
+  text-decoration: none;
+  color: #333333 !important;
+}
+.wishlist--price {
+  padding-top: 2em !important;
+  color: #eb1c23 !important;
+  font-weight: 500 !important;
+}
+.wishlist--crat {
+  font-size: 1.1rem !important;
+  padding-top: 1.6em !important;
+  cursor: pointer;
+}
+.wishlist--crat:hover {
+  color: #eb1c23 !important;
+}
+.remove-wish{
+  cursor: pointer;
+}
+@media screen and (max-width: 1198px) {
+  .wishlist-section {
+    margin-inline: 2.5em;
+  }
+}
+@media screen and (max-width: 452px) {
+  .wishlist-section {
+    margin-inline: 1em;
+  }
+}

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.product--section {
+  margin: 0;
+  padding: 0;
+}
+
+.product--img {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product__card{
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-button-prev::after {
+  color: #000;
+  font-size: 16px !important;
+  font-weight: 700;
+}
+.swiper-button-next::after {
+  color: #000;
+  font-size: 16px !important;
+  font-weight: 700;
+}
+.swiper-pagination-bullet-active {
+  background-color: #000;
+}
+.swiper-pagination-bullet::after {
+  width: 5px;
+  height: 5px;
+}
+
+.product--details {
+  color: #000;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.show {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+.grid-icon{
+  cursor: pointer;
+}
+.button-men,
+.button-women,
+.button-all {
+  outline: none !important;
+  background-color: transparent !important;
+  padding: 0.5em 0.8em;
+  border: 0;
+  text-transform: uppercase;
+}
+ .button-men:hover,
+.button-women:hover,
+.button-all:hover{
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.button-effect{
+  border: 1px solid #000 !important;
+  border-radius: 5px !important;
+  outline: none !important;
+  background-color: transparent !important;
+  padding: 0.5em 0.8em;
+  text-transform: uppercase;
+} 
+
+@media only screen and (min-width: 300px) {
+  .product__card{
+    width: 184px !important;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .product__card{
+    width: 197px !important;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .product__card{
+    width: 270px !important;
+  }
+}

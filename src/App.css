@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+::selection {
+    color: #ffffff;
+    background-color: #000000;
+}
+@media only screen and (min-width: 300px) {
+  .product__card{
+    width: 184px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .product__card{
+    width: 197px !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .product__card{
+    width: 204px !important;
+  }
+}
+/* .homepage {
+  position: relative;
+} */
+
+/* .trend-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100% !important;
+  gap: 1rem;
+}
+
+.trend-grid div {
+  width: 200px;
+  height: 300px;
+  padding: 3rem;
+  background-color: #000000;
+} */
+
+
+/* .react-multi-carousel-track {
+  width: 100% !important;
+}
+
+@media screen and (max-width: 764px) {
+  .trend-grid {
+    grid-template-columns: 100%;
+  }
+} */
+
